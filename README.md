@@ -1,5 +1,7 @@
 ## Introduction
 
+This article was originally published during [SysAdvent 2016](http://sysadvent.blogspot.com/2016/12/day-14-terraform-deployment-strategy.html).
+
 [HashiCorp's](https://www.hashicorp.com/) infrastructure management tool, [Terraform](https://www.terraform.io/), is no doubt very flexible and powerful.  The question is, how do we write Terraform code and construct our infrastructure in a reproducible fashion that makes sense? How can we keep code [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself), segment state, and reduce the risk of making changes to our service/stack/infrastructure?
 
 This post describes a design pattern to help answer the previous questions. This article is divided into two sections, with the first section describing and defining the design pattern with a _Deployment Example_. The second part uses a [multi-repository GitHub organization](https://github.com/TerraformDesignPattern) to create a _Real World Example_ of the design pattern.
