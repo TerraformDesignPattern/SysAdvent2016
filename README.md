@@ -153,7 +153,7 @@ _Environment service module?_
 Everytime I've introduced this term, I've seen this... 
 
 <center>
-![Alt](/dogs.gif "source i.imgur.com/YqfJYks.gif")
+![Alt](https://raw.githubusercontent.com/TerraformDesignPattern/SysAdvent2016/master/dogs.gif "source i.imgur.com/YqfJYks.gif")
 </center>
 
 An environment service module, or _ESM_ for short, is just a way to specify, in conversation, that we are talking about the code that actually instantiates a service module.
